@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#F41173"
+    android:orientation="vertical">
+
+
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/imagev"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    <TextView
+        android:textColor="#190202"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="select Image"/>
+    <EditText
+        android:textColorHint="#000000"
+        android:layout_marginTop="5dp"
+        android:id="@+id/edtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enetr full name"/>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:textColorHint="#000000"
+
+            android:hint="City"
+            android:id="@+id/cityedt"
+            android:layout_width="170sp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:textColorHint="#000000"
+
+            android:hint="Blood type"
+            android:id="@+id/bloodedt"
+            android:layout_width="205sp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <EditText
+        android:textColorHint="#000000"
+
+        android:layout_marginTop="20dp"
+        android:id="@+id/edtphone"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone "/>
+
+
+    <EditText
+        android:textColorHint="#000000"
+
+        android:layout_marginTop="20dp"
+
+        android:id="@+id/edtemail"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enetr Email"/>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:textColorHint="#000000"
+
+        android:id="@+id/edtpasswd"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enetr new password"/>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:textColorHint="#000000"
+
+        android:id="@+id/edtpasswd2"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="cofirm password"/>
+
+
+    <Button
+        android:id="@+id/btn11"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"/>
+
+
+
+
+
+</LinearLayout>

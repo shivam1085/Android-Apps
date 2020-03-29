@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Homeactivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:background="@drawable/circlebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:onClick="profile"/>
+
+        <Button
+            android:background="@drawable/circlebutton"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:onClick="Doner"
+            android:text="Recipient" />
+
+        <Button
+            android:background="@drawable/circlebutton"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:onClick="Doners"
+            android:text="MyDoner" />
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="blood donation application"
+        android:textColor="#8AFA0C"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter city name"
+        android:id="@+id/searchtxt"/>
+
+
+    <Button
+        android:id="@+id/btnsrc"
+        android:layout_width="111dp"
+        android:layout_height="37dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btnborder"
+        android:text="search"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="requestblood"
+        android:text="Request for blood" />
+
+    <ListView
+        android:id="@+id/listofrq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B80367"
+
+        />
+
+
+
+</LinearLayout>
